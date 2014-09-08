@@ -1,4 +1,13 @@
-# # Ruby wrapper for the apis.is API
+# Ruby wrapper for the apis.is API
+
+## Overview
+[![Gem Version](https://badge.fury.io/rb/apis-is.svg)](http://badge.fury.io/rb/apis-is)
+[![Build Status](https://travis-ci.org/SkuliOskarsson/apis-is-gem.svg?branch=master)](https://travis-ci.org/SkuliOskarsson/apis-is-gem)
+[![Coverage Status](https://img.shields.io/coveralls/SkuliOskarsson/apis-is-gem.svg)](https://coveralls.io/r/SkuliOskarsson/apis-is-gem?branch=master)
+[![Dependency Status](https://gemnasium.com/SkuliOskarsson/apis-is-gem.svg)](https://gemnasium.com/SkuliOskarsson/apis-is-gem)
+[![Inline docs](http://inch-ci.org//github/SkuliOskarsson/apis-is-gem.png)](http://inch-ci.org/github/SkuliOskarsson/apis-is-gem)
+
+## Description
 
 This gem wraps the apis.is API in a simple wrapper that is easy to use within your ruby projects
 
