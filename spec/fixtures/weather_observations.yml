@@ -1,0 +1,215 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://apis.is/weather/forecasts/is/?anytime=0&stations=361,2428&time=1h
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Origin, Referer, User-Agent, Content-Type, Authorization,
+        X-Mindflash-SessionID
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '7432'
+      Etag:
+      - '"-454585607"'
+      Date:
+      - Sun, 07 Sep 2014 22:58:14 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - SERVERID=api1; path=/
+      Cache-Control:
+      - private
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyZXN1bHRzIjpbeyJuYW1lIjoiQmVyZ3N0YcOwaXIiLCJhdGltZSI6IjIw
+        MTQtMDktMDcgMTg6MDA6MDAiLCJlcnIiOiIiLCJsaW5rIjoiaHR0cDovL3d3
+        dy52ZWR1ci5pcy9XZWF0aGVyU2VydmxldC92ZWR1ci9zcGFyL3N0YWRhc3Bh
+        ci9ub3JkdXJsYW5kX3Zlc3RyYS8jZ3JvdXA9MTQmc3RhdGlvbj0zNjEiLCJm
+        b3JlY2FzdCI6W3siZnRpbWUiOiIyMDE0LTA5LTA4IDAwOjAwOjAwIiwiRiI6
+        IjQiLCJEIjoiUyIsIlQiOiI5IiwiVyI6IlJpZ25pbmciLCJOIjoiODAiLCJU
+        RCI6IjciLCJSIjoiMS40In0seyJmdGltZSI6IjIwMTQtMDktMDggMDM6MDA6
+        MDAiLCJGIjoiMyIsIkQiOiJTIiwiVCI6IjgiLCJXIjoiU2vDunJpciIsIk4i
+        OiI3MCIsIlREIjoiNyIsIlIiOiIxLjEifSx7ImZ0aW1lIjoiMjAxNC0wOS0w
+        OCAwNjowMDowMCIsIkYiOiIzIiwiRCI6IlMiLCJUIjoiOCIsIlciOiJTa8O6
+        cmlyIiwiTiI6IjUwIiwiVEQiOiI3IiwiUiI6IjAuMiJ9LHsiZnRpbWUiOiIy
+        MDE0LTA5LTA4IDA5OjAwOjAwIiwiRiI6IjMiLCJEIjoiUyIsIlQiOiI4Iiwi
+        VyI6IlJpZ25pbmciLCJOIjoiNzAiLCJURCI6IjciLCJSIjoiMC4yIn0seyJm
+        dGltZSI6IjIwMTQtMDktMDggMTI6MDA6MDAiLCJGIjoiNCIsIkQiOiJTIiwi
+        VCI6IjEwIiwiVyI6IlJpZ25pbmciLCJOIjoiNzAiLCJURCI6IjgiLCJSIjoi
+        Mi40In0seyJmdGltZSI6IjIwMTQtMDktMDggMTU6MDA6MDAiLCJGIjoiNCIs
+        IkQiOiJTU0EiLCJUIjoiMTAiLCJXIjoiUmlnbmluZyIsIk4iOiIxMDAiLCJU
+        RCI6IjgiLCJSIjoiMS4zIn0seyJmdGltZSI6IjIwMTQtMDktMDggMTg6MDA6
+        MDAiLCJGIjoiNCIsIkQiOiJTU0EiLCJUIjoiMTAiLCJXIjoiTMOtdGlscyBo
+        w6F0dGFyIHJpZ25pbmciLCJOIjoiOTAiLCJURCI6IjgiLCJSIjoiMS41In0s
+        eyJmdGltZSI6IjIwMTQtMDktMDggMjE6MDA6MDAiLCJGIjoiNCIsIkQiOiJT
+        U0EiLCJUIjoiOSIsIlciOiJMw610aWxzIGjDoXR0YXIgcmlnbmluZyIsIk4i
+        OiI4MCIsIlREIjoiOCIsIlIiOiIwLjgifSx7ImZ0aW1lIjoiMjAxNC0wOS0w
+        OSAwMDowMDowMCIsIkYiOiI0IiwiRCI6IlNTQSIsIlQiOiIxMCIsIlciOiJT
+        a8O6cmlyIiwiTiI6IjcwIiwiVEQiOiI4IiwiUiI6IjAuMyJ9LHsiZnRpbWUi
+        OiIyMDE0LTA5LTA5IDAzOjAwOjAwIiwiRiI6IjUiLCJEIjoiU1NBIiwiVCI6
+        IjEwIiwiVyI6IlNrw71qYcOwIiwiTiI6IjUwIiwiVEQiOiI4IiwiUiI6IjAu
+        MSJ9LHsiZnRpbWUiOiIyMDE0LTA5LTA5IDA2OjAwOjAwIiwiRiI6IjUiLCJE
+        IjoiU1NBIiwiVCI6IjEwIiwiVyI6IlNrw7pyaXIiLCJOIjoiNzAiLCJURCI6
+        IjgiLCJSIjoiMC4wIn0seyJmdGltZSI6IjIwMTQtMDktMDkgMDk6MDA6MDAi
+        LCJGIjoiNCIsIkQiOiJTIiwiVCI6IjEwIiwiVyI6IkzDrXRpbHMgaMOhdHRh
+        ciByaWduaW5nIiwiTiI6IjEwMCIsIlREIjoiOSIsIlIiOiIwLjgifSx7ImZ0
+        aW1lIjoiMjAxNC0wOS0wOSAxMjowMDowMCIsIkYiOiI1IiwiRCI6IlNTViIs
+        IlQiOiIxMSIsIlciOiJTa8O9amHDsCIsIk4iOiI5MCIsIlREIjoiNiIsIlIi
+        OiIwLjIifSx7ImZ0aW1lIjoiMjAxNC0wOS0wOSAxNTowMDowMCIsIkYiOiI2
+        IiwiRCI6IlMiLCJUIjoiMTIiLCJXIjoiTMOpdHRza8O9amHDsCIsIk4iOiIw
+        IiwiVEQiOiI0IiwiUiI6IjAuMCJ9LHsiZnRpbWUiOiIyMDE0LTA5LTA5IDE4
+        OjAwOjAwIiwiRiI6IjUiLCJEIjoiUyIsIlQiOiIxMSIsIlciOiJMw6l0dHNr
+        w71qYcOwIiwiTiI6IjEwIiwiVEQiOiIzIiwiUiI6IjAuMCJ9LHsiZnRpbWUi
+        OiIyMDE0LTA5LTA5IDIxOjAwOjAwIiwiRiI6IjUiLCJEIjoiUyIsIlQiOiIx
+        MCIsIlciOiJTa8O9amHDsCIsIk4iOiIxMDAiLCJURCI6IjMiLCJSIjoiMC4w
+        In0seyJmdGltZSI6IjIwMTQtMDktMTAgMDA6MDA6MDAiLCJGIjoiNSIsIkQi
+        OiJTIiwiVCI6IjgiLCJXIjoiQWxza8O9amHDsCIsIk4iOiIxMDAiLCJURCI6
+        IjQiLCJSIjoiMC4wIn0seyJmdGltZSI6IjIwMTQtMDktMTAgMDY6MDA6MDAi
+        LCJGIjoiNCIsIkQiOiJTIiwiVCI6IjgiLCJXIjoiQWxza8O9amHDsCIsIk4i
+        OiIxMDAiLCJURCI6IjUiLCJSIjoiMC4xIn0seyJmdGltZSI6IjIwMTQtMDkt
+        MTAgMTI6MDA6MDAiLCJGIjoiNSIsIkQiOiJTIiwiVCI6IjkiLCJXIjoiTMOt
+        dGlscyBow6F0dGFyIHJpZ25pbmciLCJOIjoiODAiLCJURCI6IjUiLCJSIjoi
+        MC42In0seyJmdGltZSI6IjIwMTQtMDktMTAgMTg6MDA6MDAiLCJGIjoiNCIs
+        IkQiOiJWU1YiLCJUIjoiOSIsIlciOiJTa8O6cmlyIiwiTiI6IjYwIiwiVEQi
+        OiI1IiwiUiI6IjEuNiJ9LHsiZnRpbWUiOiIyMDE0LTA5LTExIDAwOjAwOjAw
+        IiwiRiI6IjMiLCJEIjoiU1NWIiwiVCI6IjYiLCJXIjoiTMOpdHRza8O9amHD
+        sCIsIk4iOiIyMCIsIlREIjoiNCIsIlIiOiIwLjIifSx7ImZ0aW1lIjoiMjAx
+        NC0wOS0xMSAwNjowMDowMCIsIkYiOiI0IiwiRCI6IlMiLCJUIjoiNSIsIlci
+        OiJMw6l0dHNrw71qYcOwIiwiTiI6IjMwIiwiVEQiOiIzIiwiUiI6IjAuMCJ9
+        LHsiZnRpbWUiOiIyMDE0LTA5LTExIDEyOjAwOjAwIiwiRiI6IjciLCJEIjoi
+        UyIsIlQiOiIxMSIsIlciOiJTa8O9amHDsCIsIk4iOiIxMDAiLCJURCI6IjQi
+        LCJSIjoiMC4wIn0seyJmdGltZSI6IjIwMTQtMDktMTEgMTg6MDA6MDAiLCJG
+        IjoiNiIsIkQiOiJTIiwiVCI6IjExIiwiVyI6IlNrw71qYcOwIiwiTiI6IjQw
+        IiwiVEQiOiI1IiwiUiI6IjAuMSJ9LHsiZnRpbWUiOiIyMDE0LTA5LTEyIDAw
+        OjAwOjAwIiwiRiI6IjciLCJEIjoiUyIsIlQiOiI5IiwiVyI6IkzDqXR0c2vD
+        vWphw7AiLCJOIjoiNzAiLCJURCI6IjUiLCJSIjoiMC4wIn0seyJmdGltZSI6
+        IjIwMTQtMDktMTIgMDY6MDA6MDAiLCJGIjoiNyIsIkQiOiJTIiwiVCI6Ijgi
+        LCJXIjoiU2vDvWphw7AiLCJOIjoiMjAiLCJURCI6IjUiLCJSIjoiMC4wIn0s
+        eyJmdGltZSI6IjIwMTQtMDktMTIgMTI6MDA6MDAiLCJGIjoiNyIsIkQiOiJT
+        IiwiVCI6IjExIiwiVyI6IlNrw7pyaXIiLCJOIjoiOTAiLCJURCI6IjUiLCJS
+        IjoiMC4wIn0seyJmdGltZSI6IjIwMTQtMDktMTIgMTg6MDA6MDAiLCJGIjoi
+        NiIsIkQiOiJTIiwiVCI6IjkiLCJXIjoiTMOtdGlscyBow6F0dGFyIHJpZ25p
+        bmciLCJOIjoiMTAwIiwiVEQiOiI1IiwiUiI6IjAuOCJ9LHsiZnRpbWUiOiIy
+        MDE0LTA5LTEzIDAwOjAwOjAwIiwiRiI6IjMiLCJEIjoiU1YiLCJUIjoiOCIs
+        IlciOiJMw610aWxzIGjDoXR0YXIgcmlnbmluZyIsIk4iOiIxMDAiLCJURCI6
+        IjYiLCJSIjoiMi41In0seyJmdGltZSI6IjIwMTQtMDktMTMgMDY6MDA6MDAi
+        LCJGIjoiNCIsIkQiOiJTIiwiVCI6IjUiLCJXIjoiU2vDvWphw7AiLCJOIjoi
+        NTAiLCJURCI6IjIiLCJSIjoiMC40In0seyJmdGltZSI6IjIwMTQtMDktMTMg
+        MTI6MDA6MDAiLCJGIjoiNyIsIkQiOiJTU1YiLCJUIjoiOCIsIlciOiJTa8O9
+        amHDsCIsIk4iOiI2MCIsIlREIjoiMSIsIlIiOiIwLjIifSx7ImZ0aW1lIjoi
+        MjAxNC0wOS0xMyAxODowMDowMCIsIkYiOiI1IiwiRCI6IlNTViIsIlQiOiI4
+        IiwiVyI6IkzDqXR0c2vDvWphw7AiLCJOIjoiNDAiLCJURCI6IjEiLCJSIjoi
+        MC4yIn0seyJmdGltZSI6IjIwMTQtMDktMTQgMDA6MDA6MDAiLCJGIjoiNCIs
+        IkQiOiJTIiwiVCI6IjUiLCJXIjoiTMOpdHRza8O9amHDsCIsIk4iOiIyMCIs
+        IlREIjoiMSIsIlIiOiIwLjEifV0sImlkIjoiMzYxIiwidmFsaWQiOiIxIn0s
+        eyJuYW1lIjoiQsOtbGR1ZGFsdXIiLCJhdGltZSI6IjIwMTQtMDktMDcgMTg6
+        MDA6MDAiLCJlcnIiOiIiLCJsaW5rIjoiaHR0cDovL3d3dy52ZWR1ci5pcy9X
+        ZWF0aGVyU2VydmxldC92ZWR1ci9zcGFyL3N0YWRhc3Bhci92ZXN0ZmlyZGly
+        LyNncm91cD0xMyZzdGF0aW9uPTI0MjgiLCJmb3JlY2FzdCI6W3siZnRpbWUi
+        OiIyMDE0LTA5LTA4IDAwOjAwOjAwIiwiRiI6IjQiLCJEIjoiUyIsIlQiOiIx
+        MCIsIlciOiJMw610aWxzIGjDoXR0YXIgcmlnbmluZyIsIk4iOiIxMDAiLCJU
+        RCI6IjkiLCJSIjoiMC4zIn0seyJmdGltZSI6IjIwMTQtMDktMDggMDM6MDA6
+        MDAiLCJGIjoiNSIsIkQiOiJTIiwiVCI6IjEwIiwiVyI6IkzDrXRpbHMgaMOh
+        dHRhciByaWduaW5nIiwiTiI6IjEwMCIsIlREIjoiOCIsIlIiOiIwLjUifSx7
+        ImZ0aW1lIjoiMjAxNC0wOS0wOCAwNjowMDowMCIsIkYiOiI0IiwiRCI6IlNB
+        IiwiVCI6IjEwIiwiVyI6IkzDrXRpbHMgaMOhdHRhciByaWduaW5nIiwiTiI6
+        IjkwIiwiVEQiOiI4IiwiUiI6IjAuMiJ9LHsiZnRpbWUiOiIyMDE0LTA5LTA4
+        IDA5OjAwOjAwIiwiRiI6IjQiLCJEIjoiU0EiLCJUIjoiMTAiLCJXIjoiTMOt
+        dGlscyBow6F0dGFyIHJpZ25pbmciLCJOIjoiMTAwIiwiVEQiOiI5IiwiUiI6
+        IjAuNiJ9LHsiZnRpbWUiOiIyMDE0LTA5LTA4IDEyOjAwOjAwIiwiRiI6IjMi
+        LCJEIjoiU1NBIiwiVCI6IjExIiwiVyI6IlJpZ25pbmciLCJOIjoiMTAwIiwi
+        VEQiOiIxMCIsIlIiOiIxLjYifSx7ImZ0aW1lIjoiMjAxNC0wOS0wOCAxNTow
+        MDowMCIsIkYiOiI0IiwiRCI6IlNBIiwiVCI6IjExIiwiVyI6IkzDrXRpbHMg
+        aMOhdHRhciByaWduaW5nIiwiTiI6IjEwMCIsIlREIjoiMTAiLCJSIjoiMS4z
+        In0seyJmdGltZSI6IjIwMTQtMDktMDggMTg6MDA6MDAiLCJGIjoiNCIsIkQi
+        OiJTU0EiLCJUIjoiMTEiLCJXIjoiTMOtdGlscyBow6F0dGFyIHJpZ25pbmci
+        LCJOIjoiMTAwIiwiVEQiOiIxMCIsIlIiOiIwLjkifSx7ImZ0aW1lIjoiMjAx
+        NC0wOS0wOCAyMTowMDowMCIsIkYiOiI1IiwiRCI6IlNBIiwiVCI6IjExIiwi
+        VyI6IkzDrXRpbHMgaMOhdHRhciByaWduaW5nIiwiTiI6IjEwMCIsIlREIjoi
+        OSIsIlIiOiIwLjIifSx7ImZ0aW1lIjoiMjAxNC0wOS0wOSAwMDowMDowMCIs
+        IkYiOiI2IiwiRCI6IlNBIiwiVCI6IjExIiwiVyI6IkzDrXRpbHMgaMOhdHRh
+        ciByaWduaW5nIiwiTiI6IjkwIiwiVEQiOiI5IiwiUiI6IjAuMyJ9LHsiZnRp
+        bWUiOiIyMDE0LTA5LTA5IDAzOjAwOjAwIiwiRiI6IjciLCJEIjoiU1NBIiwi
+        VCI6IjExIiwiVyI6IlNrw7pyaXIiLCJOIjoiMTAwIiwiVEQiOiIxMCIsIlIi
+        OiIwLjQifSx7ImZ0aW1lIjoiMjAxNC0wOS0wOSAwNjowMDowMCIsIkYiOiI1
+        IiwiRCI6IlNTViIsIlQiOiIxMCIsIlciOiJTa8O6cmlyIiwiTiI6IjMwIiwi
+        VEQiOiI3IiwiUiI6IjAuNSJ9LHsiZnRpbWUiOiIyMDE0LTA5LTA5IDA5OjAw
+        OjAwIiwiRiI6IjYiLCJEIjoiUyIsIlQiOiIxMCIsIlciOiJTa8O6cmlyIiwi
+        TiI6IjQwIiwiVEQiOiI3IiwiUiI6IjAuMiJ9LHsiZnRpbWUiOiIyMDE0LTA5
+        LTA5IDEyOjAwOjAwIiwiRiI6IjgiLCJEIjoiUyIsIlQiOiIxMCIsIlciOiJT
+        a8O6cmlyIiwiTiI6IjgwIiwiVEQiOiI2IiwiUiI6IjAuMyJ9LHsiZnRpbWUi
+        OiIyMDE0LTA5LTA5IDE1OjAwOjAwIiwiRiI6IjkiLCJEIjoiUyIsIlQiOiIx
+        MCIsIlciOiJBbHNrw71qYcOwIiwiTiI6IjkwIiwiVEQiOiI2IiwiUiI6IjAu
+        MSJ9LHsiZnRpbWUiOiIyMDE0LTA5LTA5IDE4OjAwOjAwIiwiRiI6IjkiLCJE
+        IjoiUyIsIlQiOiIxMCIsIlciOiJMw610aWxzIGjDoXR0YXIgcmlnbmluZyIs
+        Ik4iOiI4MCIsIlREIjoiNiIsIlIiOiIwLjIifSx7ImZ0aW1lIjoiMjAxNC0w
+        OS0wOSAyMTowMDowMCIsIkYiOiI5IiwiRCI6IlMiLCJUIjoiOSIsIlciOiJM
+        w610aWxzIGjDoXR0YXIgcmlnbmluZyIsIk4iOiIxMDAiLCJURCI6IjYiLCJS
+        IjoiMC40In0seyJmdGltZSI6IjIwMTQtMDktMTAgMDA6MDA6MDAiLCJGIjoi
+        OCIsIkQiOiJTU1YiLCJUIjoiNyIsIlciOiJMw610aWxzIGjDoXR0YXIgcmln
+        bmluZyIsIk4iOiI4MCIsIlREIjoiNiIsIlIiOiIxLjQifSx7ImZ0aW1lIjoi
+        MjAxNC0wOS0xMCAwNjowMDowMCIsIkYiOiI2IiwiRCI6IlNTViIsIlQiOiI3
+        IiwiVyI6IkzDrXRpbHMgaMOhdHRhciByaWduaW5nIiwiTiI6IjkwIiwiVEQi
+        OiI1IiwiUiI6IjEuNyJ9LHsiZnRpbWUiOiIyMDE0LTA5LTEwIDEyOjAwOjAw
+        IiwiRiI6IjUiLCJEIjoiVlNWIiwiVCI6IjciLCJXIjoiTMOtdGlscyBow6F0
+        dGFyIHJpZ25pbmciLCJOIjoiMTAwIiwiVEQiOiI1IiwiUiI6IjEuMyJ9LHsi
+        ZnRpbWUiOiIyMDE0LTA5LTEwIDE4OjAwOjAwIiwiRiI6IjIiLCJEIjoiVlNW
+        IiwiVCI6IjciLCJXIjoiU2vDunJpciIsIk4iOiI1MCIsIlREIjoiNCIsIlIi
+        OiIwLjQifSx7ImZ0aW1lIjoiMjAxNC0wOS0xMSAwMDowMDowMCIsIkYiOiI0
+        IiwiRCI6IlNTViIsIlQiOiI3IiwiVyI6IkzDrXRpbHMgaMOhdHRhciByaWdu
+        aW5nIiwiTiI6IjkwIiwiVEQiOiI2IiwiUiI6IjAuNSJ9LHsiZnRpbWUiOiIy
+        MDE0LTA5LTExIDA2OjAwOjAwIiwiRiI6IjQiLCJEIjoiUyIsIlQiOiI3Iiwi
+        VyI6IkzDrXRpbHMgaMOhdHRhciByaWduaW5nIiwiTiI6IjEwMCIsIlREIjoi
+        NiIsIlIiOiIwLjQifSx7ImZ0aW1lIjoiMjAxNC0wOS0xMSAxMjowMDowMCIs
+        IkYiOiI3IiwiRCI6IlMiLCJUIjoiOSIsIlciOiJMw610aWxzIGjDoXR0YXIg
+        cmlnbmluZyIsIk4iOiIxMDAiLCJURCI6IjYiLCJSIjoiMC44In0seyJmdGlt
+        ZSI6IjIwMTQtMDktMTEgMTg6MDA6MDAiLCJGIjoiOCIsIkQiOiJTU0EiLCJU
+        IjoiOSIsIlciOiJMw610aWxzIGjDoXR0YXIgcmlnbmluZyIsIk4iOiIxMDAi
+        LCJURCI6IjgiLCJSIjoiMi4xIn0seyJmdGltZSI6IjIwMTQtMDktMTIgMDA6
+        MDA6MDAiLCJGIjoiOCIsIkQiOiJTU0EiLCJUIjoiOSIsIlciOiJSaWduaW5n
+        IiwiTiI6IjEwMCIsIlREIjoiOSIsIlIiOiIyLjUifSx7ImZ0aW1lIjoiMjAx
+        NC0wOS0xMiAwNjowMDowMCIsIkYiOiI4IiwiRCI6IlMiLCJUIjoiOSIsIlci
+        OiJSaWduaW5nIiwiTiI6IjEwMCIsIlREIjoiOSIsIlIiOiI0LjUifSx7ImZ0
+        aW1lIjoiMjAxNC0wOS0xMiAxMjowMDowMCIsIkYiOiIzIiwiRCI6IlMiLCJU
+        IjoiOCIsIlciOiJSaWduaW5nIiwiTiI6IjEwMCIsIlREIjoiNyIsIlIiOiI3
+        LjUifSx7ImZ0aW1lIjoiMjAxNC0wOS0xMiAxODowMDowMCIsIkYiOiI1Iiwi
+        RCI6IlNTViIsIlQiOiI3IiwiVyI6IlNrw7pyaXIiLCJOIjoiNjAiLCJURCI6
+        IjQiLCJSIjoiMC42In0seyJmdGltZSI6IjIwMTQtMDktMTMgMDA6MDA6MDAi
+        LCJGIjoiNCIsIkQiOiJTU1YiLCJUIjoiNiIsIlciOiJTa8O6cmlyIiwiTiI6
+        IjYwIiwiVEQiOiIyIiwiUiI6IjAuMiJ9LHsiZnRpbWUiOiIyMDE0LTA5LTEz
+        IDA2OjAwOjAwIiwiRiI6IjQiLCJEIjoiU1NWIiwiVCI6IjUiLCJXIjoiUmln
+        bmluZyIsIk4iOiI3MCIsIlREIjoiMyIsIlIiOiIyLjQifSx7ImZ0aW1lIjoi
+        MjAxNC0wOS0xMyAxMjowMDowMCIsIkYiOiI2IiwiRCI6IlNTViIsIlQiOiI3
+        IiwiVyI6IlJpZ25pbmciLCJOIjoiOTAiLCJURCI6IjQiLCJSIjoiMy45In0s
+        eyJmdGltZSI6IjIwMTQtMDktMTMgMTg6MDA6MDAiLCJGIjoiNCIsIkQiOiJT
+        ViIsIlQiOiI1IiwiVyI6IlNrw7pyaXIiLCJOIjoiNjAiLCJURCI6IjMiLCJS
+        IjoiNC44In0seyJmdGltZSI6IjIwMTQtMDktMTQgMDA6MDA6MDAiLCJGIjoi
+        NCIsIkQiOiJTU1YiLCJUIjoiNSIsIlciOiJMw6l0dHNrw71qYcOwIiwiTiI6
+        IjIwIiwiVEQiOiIxIiwiUiI6IjAuMSJ9XSwiaWQiOiIyNDI4IiwidmFsaWQi
+        OiIxIn1dfQ==
+    http_version: 
+  recorded_at: Sun, 07 Sep 2014 22:58:14 GMT
+recorded_with: VCR 2.9.2

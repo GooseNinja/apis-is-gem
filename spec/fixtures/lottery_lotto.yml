@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://apis.is/lottery
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Origin, Referer, User-Agent, Content-Type, Authorization,
+        X-Mindflash-SessionID
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 07 Sep 2014 18:14:44 GMT
+      Connection:
+      - keep-alive
+      Transfer-Encoding:
+      - chunked
+      Set-Cookie:
+      - SERVERID=api2; path=/
+      Cache-Control:
+      - private
+    body:
+      encoding: UTF-8
+      string: '{"results":[{"date":"06.09.2014","lotto":"4 7 11 23 33 (2)","joker":"0
+        4 1 0 7","prize":"6.266.420 kr.","link":"http://lotto.is/lottoleikir/urslit/lotto?_date=06.09.2014"},{"date":"30.08.2014","lotto":"2
+        7 15 16 37 (17)","joker":"7 6 9 5 7","prize":"53.194.170 kr.","link":"http://lotto.is/lottoleikir/urslit/lotto?_date=30.08.2014"},{"date":"23.08.2014","lotto":"7
+        14 23 31 33 (16)","joker":"5 6 9 4 8","prize":"76.659.750 kr.","link":"http://lotto.is/lottoleikir/urslit/lotto?_date=23.08.2014"},{"date":"16.08.2014","lotto":"1
+        4 21 32 40 (15)","joker":"5 8 7 8 6","prize":"56.106.090 kr.","link":"http://lotto.is/lottoleikir/urslit/lotto?_date=16.08.2014"},{"date":"09.08.2014","lotto":"2
+        3 26 27 38 (30)","joker":"3 7 4 1 0","prize":"41.385.380 kr.","link":"http://lotto.is/lottoleikir/urslit/lotto?_date=09.08.2014"},{"date":"02.08.2014","lotto":"1
+        2 21 24 40 (8)","joker":"4 7 2 9 0","prize":"29.915.800 kr.","link":"http://lotto.is/lottoleikir/urslit/lotto?_date=02.08.2014"},{"date":"26.07.2014","lotto":"12
+        28 33 37 38 (40)","joker":"9 6 7 1 4","prize":"19.450.000 kr.","link":"http://lotto.is/lottoleikir/urslit/lotto?_date=26.07.2014"},{"date":"19.07.2014","lotto":"13
+        22 27 35 40 (23)","joker":"0 9 6 7 4","prize":"12.349.920 kr.","link":"http://lotto.is/lottoleikir/urslit/lotto?_date=19.07.2014"},{"date":"12.07.2014","lotto":"3
+        10 16 21 23 (26)","joker":"4 7 6 9 2","prize":"5.935.270 kr.","link":"http://lotto.is/lottoleikir/urslit/lotto?_date=12.07.2014"},{"date":"05.07.2014","lotto":"14
+        18 21 29 35 (23)","joker":"8 3 9 1 7","prize":"19.483.550 kr.","link":"http://lotto.is/lottoleikir/urslit/lotto?_date=05.07.2014"}]}'
+    http_version: 
+  recorded_at: Sun, 07 Sep 2014 18:14:44 GMT
+recorded_with: VCR 2.9.2

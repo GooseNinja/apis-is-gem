@@ -1,0 +1,84 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://apis.is/company?name=hagur
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Origin, Referer, User-Agent, Content-Type, Authorization,
+        X-Mindflash-SessionID
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 07 Sep 2014 18:14:44 GMT
+      Connection:
+      - keep-alive
+      Transfer-Encoding:
+      - chunked
+      Set-Cookie:
+      - SERVERID=api1; path=/
+      Cache-Control:
+      - private
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyZXN1bHRzIjpbeyJuYW1lIjoiSGFndXIgLSDDnnLDs3VuIGVoZiIsInNu
+        IjoiNTIxMDk5Mjc1OSIsImFjdGl2ZSI6MSwiYWRkcmVzcyI6IkHDsGFsbGFu
+        ZGkgMTUsIDEwOCBSZXlramF2w61rIn0seyJuYW1lIjoiSGFndXIgZWhmIiwi
+        c24iOiI0ODA0NjgxMzk5IiwiYWN0aXZlIjowLCJhZGRyZXNzIjoiUmV5a2ph
+        bmVzYnJhdXQgNiwgMTAxIFJleWtqYXbDrWsifSx7Im5hbWUiOiJIYWd1ciBl
+        aGYiLCJzbiI6IjQ4MDkwMzI4NTAiLCJhY3RpdmUiOjAsImFkZHJlc3MiOiJT
+        dcOwdXJsYW5kc2JyYXV0IDMwLCAxMDggUmV5a2phdsOtayJ9LHsibmFtZSI6
+        IkhhZ3VyIGVoZiIsInNuIjoiNjYwMTc2MDIwOSIsImFjdGl2ZSI6MCwiYWRk
+        cmVzcyI6IknDsGp1dsO2bGx1bSwgODgwIEtpcmtqdWLDpmphcmtsYXVzdHVy
+        In0seyJuYW1lIjoiSGFndXIgZWhmICjDvnJvdGFiw7opIiwic24iOiI0NDAx
+        NzQwMzU5IiwiYWN0aXZlIjowLCJhZGRyZXNzIjoiSHZlcmZpc2fDtnR1IDQt
+        NiwgMTAxIFJleWtqYXbDrWsifSx7Im5hbWUiOiJIYWd1ciBmYXN0ZWlnbmFm
+        w6lsYWcgZWhmIiwic24iOiI1ODAxMDcxMTcwIiwiYWN0aXZlIjowLCJhZGRy
+        ZXNzIjoiTGF1Z2F2ZWdpIDE4MiwgMTA1IFJleWtqYXbDrWsifSx7Im5hbWUi
+        OiJIYWd1ciBIYWZuYXJmamFyw7BhciIsInNuIjoiNjIwMjA3MjY4MCIsImFj
+        dGl2ZSI6MSwiYWRkcmVzcyI6IkRyYW5nYWhyYXVuaSA1LCAyMjAgSGFmbmFy
+        ZmrDtnLDsHVyIn0seyJuYW1lIjoiSGFndXIgaGYiLCJzbiI6IjQ4MDQ2ODEy
+        MDkiLCJhY3RpdmUiOjAsImFkZHJlc3MiOiJBdXN0dXJnZXLDsGkgOCwgMTA4
+        IFJleWtqYXbDrWsifSx7Im5hbWUiOiJIYWd1ciBoZiIsInNuIjoiNjUwNjY4
+        MDMwOSIsImFjdGl2ZSI6MCwiYWRkcmVzcyI6IiwgMjMwIFJleWtqYW5lc2LD
+        pnIifSx7Im5hbWUiOiJIYWd1ciBoZiIsInNuIjoiNDQwMTg4MTkyOSIsImFj
+        dGl2ZSI6MCwiYWRkcmVzcyI6IsOBcm3DumxhIDI2LCAxMDggUmV5a2phdsOt
+        ayJ9LHsibmFtZSI6IkhhZ3VyIG9nIGhlaWxzYSBlaGYiLCJzbiI6IjQzMDQ4
+        NzEzMjkiLCJhY3RpdmUiOjEsImFkZHJlc3MiOiJIcsOzbGZzc2vDoWxhdsO2
+        ciA5LCAxNzAgU2VsdGphcm5hcm5lcyJ9LHsibmFtZSI6IkhhZ3VyIHJla3N0
+        cmFycsOhw7BnasO2ZiBlaGYuIiwic24iOiI1NzExOTQyNjA5IiwiYWN0aXZl
+        IjoxLCJhZGRyZXNzIjoiQnJhdXRhcmhvbHRpIDI2LCAxMDUgUmV5a2phdsOt
+        ayJ9LHsibmFtZSI6IkhhZ3VyIHNmIiwic24iOiI2OTA4OTExMzE5IiwiYWN0
+        aXZlIjoxLCJhZGRyZXNzIjoiTGFnYXLDoXNpIDQsIDcwMCBFZ2lsc3N0YcOw
+        aXIifSx7Im5hbWUiOiJIYWd1ciDDrSBow6FyaSBlaGYiLCJzbiI6IjU2MDMw
+        NjAyNDAiLCJhY3RpdmUiOjAsImFkZHJlc3MiOiJCb3JnYXJ0w7puaSAyNiwg
+        MTA1IFJleWtqYXbDrWsifSx7Im5hbWUiOiJIYWd1cixmeXJyIHDDtm50dW5h
+        cmbDqWxhZyIsInNuIjoiNTAxMDc0MDEyOSIsImFjdGl2ZSI6MCwiYWRkcmVz
+        cyI6IiwgMzcwIELDusOwYXJkYWx1ciJ9LHsibmFtZSI6IkhhZ3VyLWVpZ25h
+        cmhhbGRzZsOpbGFnIGVoZiIsInNuIjoiNDgwMTA4MTI0MCIsImFjdGl2ZSI6
+        MSwiYWRkcmVzcyI6IkRhbGjDunN1bSAxMDcsIDExMiBSZXlramF2w61rIn1d
+        fQ==
+    http_version: 
+  recorded_at: Sun, 07 Sep 2014 18:14:44 GMT
+recorded_with: VCR 2.9.2

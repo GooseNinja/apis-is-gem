@@ -1,0 +1,53 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://apis.is/car?number=aa031
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Origin, Referer, User-Agent, Content-Type, Authorization,
+        X-Mindflash-SessionID
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 07 Sep 2014 18:14:44 GMT
+      Connection:
+      - keep-alive
+      Transfer-Encoding:
+      - chunked
+      Set-Cookie:
+      - SERVERID=api1; path=/
+      Cache-Control:
+      - private
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyZXN1bHRzIjpbeyJyZWdpc3RyeU51bWJlciI6IkFBMDMxIiwibnVtYmVy
+        IjoiQUEwMzEiLCJmYWN0b3J5TnVtYmVyIjoiVkYzN0VORlpFMzIyODY4NjYi
+        LCJ0eXBlIjoiUEVVR0VPVCIsInN1YlR5cGUiOiIzMDYiLCJjb2xvciI6IkJs
+        w6FyIiwicmVnaXN0ZXJlZEF0IjoiMjYuMDIuMTk5OCIsInN0YXR1cyI6IsON
+        IGxhZ2kiLCJuZXh0Q2hlY2siOiIwMS4wMS4yMDE1IiwicG9sbHV0aW9uIjoi
+        Iiwid2VpZ2h0IjoiMTEyMCJ9XX0=
+    http_version: 
+  recorded_at: Sun, 07 Sep 2014 18:14:44 GMT
+recorded_with: VCR 2.9.2

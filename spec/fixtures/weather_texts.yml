@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://apis.is/weather/texts?types=2,3,5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Origin, Referer, User-Agent, Content-Type, Authorization,
+        X-Mindflash-SessionID
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1307'
+      Etag:
+      - '"-178956672"'
+      Date:
+      - Sun, 07 Sep 2014 18:31:03 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - SERVERID=api1; path=/
+      Cache-Control:
+      - private
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyZXN1bHRzIjpbeyJ0aXRsZSI6IlZlw7B1cmhvcmZ1ciDDoSBsYW5kaW51
+        IiwiY3JlYXRpb24iOiIyMDE0LTA5LTA3IDE3OjU5OjQ4IiwidmFsaWRfZnJv
+        bSI6IjIwMTQtMDktMDcgMTk6MDA6MDAiLCJ2YWxpZF90byI6IjIwMTQtMDkt
+        MDggMTg6MDA6MDAiLCJjb250ZW50IjoiU3VubmFuIG9nIHN1w7B2ZXN0YW4g
+        NS0xMyBtL3MgdmVzdGFubGFuZHMgb2cgcmlnbmluZyBtZcOwIGvDtmZsdW0u
+        IEjDpmdhcmkgdmluZHVyIGF1c3RhbnRpbCBvZyBhbGx2w63DsGEgcmlnbmlu
+        ZyDDvmFyIGZyYW0gZWZ0aXIga3bDtmxkaS4gU3XDsGF1c3RhbiA1LTEzIMOh
+        IG1vcmd1biBvZyByaWduaW5nLCBlbiBsw6l0dGlyIHRpbCBhdXN0YW5sYW5k
+        cy4gSGl0aSA4IHRpbCAxNiBzdGlnLCBobMO9amFzdCB1bSBsYW5kacOwIG5v
+        csOwYXVzdGFudmVydC4iLCJpZCI6IjIifSx7InRpdGxlIjoiVmXDsHVyaG9y
+        ZnVyIMOhIGjDtmZ1w7Bib3JnYXJzdsOmw7BpbnUiLCJjcmVhdGlvbiI6IjIw
+        MTQtMDktMDcgMTg6Mjg6MDciLCJ2YWxpZF9mcm9tIjoiMjAxNC0wOS0wNyAx
+        OTowMDowMCIsInZhbGlkX3RvIjoiMjAxNC0wOS0wOSAwMDowMDowMCIsImNv
+        bnRlbnQiOiJTdW5uYW4gNS0xMCBtL3Mgb2cgcmlnbmluZyBlw7BhIHPDumxk
+        LiBIaXRpIDkgdGlsIDEzIHN0aWcuIiwiaWQiOiIzIn0seyJ0aXRsZSI6IlZl
+        w7B1cmhvcmZ1ciDDoSBsYW5kaW51IG7DpnN0dSBkYWdhIiwiY3JlYXRpb24i
+        OiIyMDE0LTA5LTA3IDA4OjM2OjMzIiwidmFsaWRfZnJvbSI6IjIwMTQtMDkt
+        MDkgMTI6MDA6MDAiLCJ2YWxpZF90byI6IjIwMTQtMDktMTQgMTI6MDA6MDAi
+        LCJjb250ZW50Ijoiw4Egw75yacOwanVkYWc6IFN1w7BhdXN0YW4gOC0xMyBt
+        L3MgbWXDsCByaWduaW5ndSBvZyBzw63DsGFuIHNrw7pydW0sIGVuIMO+dXJy
+        dCBhw7Aga2FsbGEgdW0gbGFuZGnDsCBub3LDsGF1c3RhbnZlcnQuIEhpdGkg
+        OCB0aWwgMTYgc3RpZywgaGzDvWphc3Qgbm9yw7BhdXN0YW50aWwuIMOBIG1p
+        w7B2aWt1ZGFnOiBTdcOwdmVzdGFuIDUtMTAgb2cgcmlnbmluZywgZWlua3Vt
+        IHN1bm5hbnRpbCwgZW4gw6FmcmFtIHNrw7pyaXIgdmVzdGFubGFuZHMuIEhp
+        dGkgYnJleXRpc3QgbMOtdGnDsC4gw4EgIGZpbW10dWRhZyBvZyAgZsO2c3R1
+        ZGFnOiBTdcOwdmVzdGFuIDgtMTUgbS9zIG9nIHNrw7pyaXIsIGVuIDUtMTAg
+        YXVzdGFudGlsLCB5ZmlybGVpdHQgbMOpdHRza8O9amHDsCBvZyBoaXRpIGHD
+        sCAxNiBzdGlndW0gbm9yw7BhdXN0YW5sYW5kcy4gw4EgbGF1Z2FyZGFnOiDD
+        gWZyYW0gc3XDsHZlc3RhbsOhdHQgbWXDsCBza8O6cnVtLiIsImlkIjoiNSJ9
+        XX0=
+    http_version: 
+  recorded_at: Sun, 07 Sep 2014 18:31:03 GMT
+recorded_with: VCR 2.9.2

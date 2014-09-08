@@ -1,0 +1,57 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://apis.is/lottery/vikingalotto
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Origin, Referer, User-Agent, Content-Type, Authorization,
+        X-Mindflash-SessionID
+      Content-Type:
+      - application/json
+      Date:
+      - Sun, 07 Sep 2014 18:14:44 GMT
+      Connection:
+      - keep-alive
+      Transfer-Encoding:
+      - chunked
+      Set-Cookie:
+      - SERVERID=api2; path=/
+      Cache-Control:
+      - private
+    body:
+      encoding: UTF-8
+      string: '{"results":[{"date":"03.09.2014","lotto":"2 17 25 27 31 37 9 24 (38)","joker":"7
+        2 7 8 4","prize":"46.747.720 kr.","link":"http://lotto.is/lottoleikir/urslit/vikingalotto?_date=03.09.2014"},{"date":"27.08.2014","lotto":"10
+        15 21 33 37 46 29 36 (28)","joker":"5 1 1 2 2","prize":"47.645.620 kr.","link":"http://lotto.is/lottoleikir/urslit/vikingalotto?_date=27.08.2014"},{"date":"20.08.2014","lotto":"5
+        10 17 27 33 45 18 20 (28)","joker":"7 8 4 2 6","prize":"92.025.550 kr.","link":"http://lotto.is/lottoleikir/urslit/vikingalotto?_date=20.08.2014"},{"date":"13.08.2014","lotto":"2
+        4 11 17 31 45 6 38 (43)","joker":"7 9 0 7 6","prize":"180.222.810 kr.","link":"http://lotto.is/lottoleikir/urslit/vikingalotto?_date=13.08.2014"},{"date":"06.08.2014","lotto":"25
+        27 41 43 46 47 31 44 (9)","joker":"1 4 0 3 8","prize":"85.234.180 kr.","link":"http://lotto.is/lottoleikir/urslit/vikingalotto?_date=06.08.2014"},{"date":"30.07.2014","lotto":"15
+        22 28 29 31 32 1 23 (37)","joker":"6 3 5 7 4","prize":"84.794.390 kr.","link":"http://lotto.is/lottoleikir/urslit/vikingalotto?_date=30.07.2014"},{"date":"23.07.2014","lotto":"16
+        17 23 25 37 39 21 32 (2)","joker":"9 9 9 6 0","prize":"42.684.940 kr.","link":"http://lotto.is/lottoleikir/urslit/vikingalotto?_date=23.07.2014"},{"date":"16.07.2014","lotto":"1
+        20 21 25 29 30 12 43 (5)","joker":"2 1 7 1 7","prize":"43.714.400 kr.","link":"http://lotto.is/lottoleikir/urslit/vikingalotto?_date=16.07.2014"},{"date":"09.07.2014","lotto":"5
+        26 27 30 39 45 8 47 (17)","joker":"2 9 0 2 2","prize":"42.975.910 kr.","link":"http://lotto.is/lottoleikir/urslit/vikingalotto?_date=09.07.2014"},{"date":"02.07.2014","lotto":"3
+        4 13 14 30 32 21 28 (42)","joker":"6 8 6 7 7","prize":"58.767.990 kr.","link":"http://lotto.is/lottoleikir/urslit/vikingalotto?_date=02.07.2014"}]}'
+    http_version: 
+  recorded_at: Sun, 07 Sep 2014 18:14:44 GMT
+recorded_with: VCR 2.9.2

@@ -1,0 +1,49 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://apis.is/particulates
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Origin, Referer, User-Agent, Content-Type, Authorization,
+        X-Mindflash-SessionID
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '129'
+      Etag:
+      - '"-1372712227"'
+      Date:
+      - Sun, 07 Sep 2014 18:14:45 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - SERVERID=api1; path=/
+      Cache-Control:
+      - private
+    body:
+      encoding: UTF-8
+      string: '{"results":[{"PM10nuna":"27.0","PM10medaltal":"21.0","Counter":"20","Dags":"2007-09-19","nanariuppl":"http://www.reykjavik.is"}]}'
+    http_version: 
+  recorded_at: Sun, 07 Sep 2014 18:14:45 GMT
+recorded_with: VCR 2.9.2

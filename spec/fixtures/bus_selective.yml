@@ -1,0 +1,82 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://apis.is/bus/realtime?busses=1,2,3,4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Origin, Referer, User-Agent, Content-Type, Authorization,
+        X-Mindflash-SessionID
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1455'
+      Etag:
+      - '"-1602550351"'
+      Date:
+      - Sun, 07 Sep 2014 18:14:44 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - SERVERID=api2; path=/
+      Cache-Control:
+      - private
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyZXN1bHRzIjpbeyJidXNOciI6IjEiLCJidXNzZXMiOlt7InVuaXhUaW1l
+        IjoxNDEwMTEzNjY2LCJ4Ijo2NC4wNTQ4NzU3OTI5MTkyNiwieSI6LTIxLjk2
+        NTk0MDE2NDk5NTEyLCJmcm9tIjoiS2x1a2t1dmVsbGlyIiwidG8iOiJIbGVt
+        bXVyIn0seyJ1bml4VGltZSI6MTQxMDExMzY2MywieCI6NjQuMTM3NTQ2MDcy
+        NjY2NDQsInkiOi0yMS45Mjc5NTEzMjk5Njc5ODYsImZyb20iOiJLbHVra3V2
+        ZWxsaXIiLCJ0byI6IkhsZW1tdXIifSx7InVuaXhUaW1lIjoxNDEwMTEzNjc2
+        LCJ4Ijo2NC4wNzc0ODQxOTY3MjA3LCJ5IjotMjEuOTUwNzQyODUzMTI3NDcz
+        LCJmcm9tIjoiSGxlbW11ciIsInRvIjoiS2x1a2t1dmVsbGlyIn0seyJ1bml4
+        VGltZSI6MTQxMDExMzY3MywieCI6NjQuMTQzNTUzNjk1MDk4MTYsInkiOi0y
+        MS45MTQxNTMzOTY2NDE0MywiZnJvbSI6IkhsZW1tdXIiLCJ0byI6IktsdWtr
+        dXZlbGxpciJ9XX0seyJidXNOciI6IjIiLCJidXNzZXMiOlt7InVuaXhUaW1l
+        IjoxNDEwMTEzNjcxLCJ4Ijo2NC4xNDM4MTQ2NTU2ODE4MSwieSI6LTIxLjkx
+        NDU3MTY3Mjk3ODY0NiwiZnJvbSI6IkhsZW1tdXIiLCJ0byI6IlZlcnNhbGly
+        In0seyJ1bml4VGltZSI6MTQxMDExMzY2OCwieCI6NjQuMTM5MjA5Mjk1Mzcy
+        ODgsInkiOi0yMS44Nzk1NDQ1MjkzOTgzNCwiZnJvbSI6IlZlcnNhbGlyIiwi
+        dG8iOiJIbGVtbXVyIn0seyJ1bml4VGltZSI6MTQxMDExMzY2MywieCI6NjQu
+        MTAyNDgxMzg2NjI4NzQsInkiOi0yMS44ODMyNzIzNTA5NTA5MjUsImZyb20i
+        OiJIbGVtbXVyIiwidG8iOiJWZXJzYWxpciJ9XX0seyJidXNOciI6IjMiLCJi
+        dXNzZXMiOlt7InVuaXhUaW1lIjoxNDEwMTEzNjY3LCJ4Ijo2NS42ODcxNzcz
+        MjY1NTczMiwieSI6LTE4LjA5NjA2NjE0NzkyMTE0NiwiZnJvbSI6Ik1pw7Bi
+        w6ZyIiwidG8iOiJNacOwYsOmciJ9LHsidW5peFRpbWUiOjE0MTAxMTM2NzEs
+        IngiOjY0LjEzMzE1NTg3Njk5MDU2LCJ5IjotMjEuODk5Mzg1OTU3NTQ5NDc3
+        LCJmcm9tIjoiSGxlbW11ciIsInRvIjoiTWrDs2RkIn0seyJ1bml4VGltZSI6
+        MTQxMDExMzY2NywieCI6NjQuMTA5ODE1MjcxMDY1NDcsInkiOi0yMS44NDIx
+        NDEzNTg1NTM5MTcsImZyb20iOiJIbGVtbXVyIiwidG8iOiJNasOzZGQifV19
+        LHsiYnVzTnIiOiI0IiwiYnVzc2VzIjpbeyJ1bml4VGltZSI6MTQxMDExMzY3
+        MCwieCI6NjQuMTQ2MjI4NzI5ODQyODYsInkiOi0yMS44OTI3MTkxMjM3MDE4
+        MDIsImZyb20iOiJNasOzZGQiLCJ0byI6IkhsZW1tdXIifSx7InVuaXhUaW1l
+        IjoxNDEwMTEzNjc0LCJ4Ijo2NC4xNDM3MDg1MTIxMjc3NywieSI6LTIxLjkx
+        NTM4Mjk5OTUzMzA1NSwiZnJvbSI6IkhsZW1tdXIiLCJ0byI6Ik1qw7NkZCJ9
+        LHsidW5peFRpbWUiOjE0MTAxMTM2NjMsIngiOjY0LjEwOTc1OTI2NjczNzYz
+        LCJ5IjotMjEuODQzMTYyNDU1NzI2Nzk4LCJmcm9tIjoiTWrDs2RkIiwidG8i
+        OiJIbGVtbXVyIn1dfV19
+    http_version: 
+  recorded_at: Sun, 07 Sep 2014 18:14:44 GMT
+recorded_with: VCR 2.9.2

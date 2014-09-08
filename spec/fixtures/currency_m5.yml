@@ -1,0 +1,77 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://apis.is/currency/m5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Powered-By:
+      - Express
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET,PUT,POST,DELETE
+      Access-Control-Allow-Headers:
+      - X-Requested-With, Accept, Origin, Referer, User-Agent, Content-Type, Authorization,
+        X-Mindflash-SessionID
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '1242'
+      Etag:
+      - '"1148987981"'
+      Date:
+      - Sun, 07 Sep 2014 18:14:43 GMT
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - SERVERID=api2; path=/
+      Cache-Control:
+      - private
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJyZXN1bHRzIjpbeyJzaG9ydE5hbWUiOiJVU0QiLCJsb25nTmFtZSI6IkJh
+        bmRhcsOtc2t1ciBkYWx1ciIsInZhbHVlIjoxMTguMzYsImFza1ZhbHVlIjow
+        LCJiaWRWYWx1ZSI6MCwiY2hhbmdlQ3VyIjpudWxsLCJjaGFuZ2VQZXIiOm51
+        bGx9LHsic2hvcnROYW1lIjoiREtLIiwibG9uZ05hbWUiOiJEw7Zuc2sga3LD
+        s25hIiwidmFsdWUiOjIwLjYyNCwiYXNrVmFsdWUiOjAsImJpZFZhbHVlIjow
+        LCJjaGFuZ2VDdXIiOm51bGwsImNoYW5nZVBlciI6bnVsbH0seyJzaG9ydE5h
+        bWUiOiJFVVIiLCJsb25nTmFtZSI6IkV2cmEiLCJ2YWx1ZSI6MTUzLjU1LCJh
+        c2tWYWx1ZSI6MCwiYmlkVmFsdWUiOjAsImNoYW5nZUN1ciI6bnVsbCwiY2hh
+        bmdlUGVyIjpudWxsfSx7InNob3J0TmFtZSI6IkpQWSIsImxvbmdOYW1lIjoi
+        SmFwYW5za3QgWWVuIiwidmFsdWUiOjEuMTMwMywiYXNrVmFsdWUiOjAsImJp
+        ZFZhbHVlIjowLCJjaGFuZ2VDdXIiOm51bGwsImNoYW5nZVBlciI6bnVsbH0s
+        eyJzaG9ydE5hbWUiOiJDQUQiLCJsb25nTmFtZSI6IkthbmFkw61za3VyIGRh
+        bHVyIiwidmFsdWUiOjEwOC44LCJhc2tWYWx1ZSI6MCwiYmlkVmFsdWUiOjAs
+        ImNoYW5nZUN1ciI6bnVsbCwiY2hhbmdlUGVyIjpudWxsfSx7InNob3J0TmFt
+        ZSI6Ik5PSyIsImxvbmdOYW1lIjoiTm9yc2sga3LDs25hIiwidmFsdWUiOjE4
+        Ljg2OSwiYXNrVmFsdWUiOjAsImJpZFZhbHVlIjowLCJjaGFuZ2VDdXIiOm51
+        bGwsImNoYW5nZVBlciI6bnVsbH0seyJzaG9ydE5hbWUiOiJHQlAiLCJsb25n
+        TmFtZSI6IlN0ZXJsaW5nc3B1bmQiLCJ2YWx1ZSI6MTkzLjMzLCJhc2tWYWx1
+        ZSI6MCwiYmlkVmFsdWUiOjAsImNoYW5nZUN1ciI6bnVsbCwiY2hhbmdlUGVy
+        IjpudWxsfSx7InNob3J0TmFtZSI6IkNIRiIsImxvbmdOYW1lIjoiU3Zpc3Nu
+        ZXNrdXIgZnJhbmtpIiwidmFsdWUiOjEyNy4yOCwiYXNrVmFsdWUiOjAsImJp
+        ZFZhbHVlIjowLCJjaGFuZ2VDdXIiOm51bGwsImNoYW5nZVBlciI6bnVsbH0s
+        eyJzaG9ydE5hbWUiOiJTRUsiLCJsb25nTmFtZSI6IlPDpm5zayBrcsOzbmEi
+        LCJ2YWx1ZSI6MTYuNzI4LCJhc2tWYWx1ZSI6MCwiYmlkVmFsdWUiOjAsImNo
+        YW5nZUN1ciI6bnVsbCwiY2hhbmdlUGVyIjpudWxsfSx7InNob3J0TmFtZSI6
+        IlRXSSIsImxvbmdOYW1lIjoiVHJhZGUgV2VpZ2h0ZWQgSW5kZXgiLCJ2YWx1
+        ZSI6MjA4LjE0LCJhc2tWYWx1ZSI6MCwiYmlkVmFsdWUiOjAsImNoYW5nZUN1
+        ciI6MC41MSwiY2hhbmdlUGVyIjowLjI0fV19
+    http_version: 
+  recorded_at: Sun, 07 Sep 2014 18:14:43 GMT
+recorded_with: VCR 2.9.2
