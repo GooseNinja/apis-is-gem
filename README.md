@@ -11,6 +11,9 @@
 
 This gem wraps the apis.is API in a simple wrapper that is easy to use within your ruby projects
 
+[Project Page](http://docs.apis.is/)       
+[Project Github Page](https://github.com/kristjanmik/apis)
+
 ## Installation
 
 To install this gem you can either type:
